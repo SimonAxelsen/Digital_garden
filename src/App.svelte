@@ -4,12 +4,14 @@
   import Bookshelf from './lib/pages/Bookshelf.svelte'
   import Movies from './lib/pages/Movies.svelte'
   import Albums from './lib/pages/Albums.svelte'
+  import Manga from './lib/pages/Manga.svelte'
 
   const ROUTES = {
     home: { label: 'Home', component: Home },
     books: { label: 'Bookshelf', component: Bookshelf },
     movies: { label: 'Movies', component: Movies },
-    albums: { label: 'Albums', component: Albums }
+    albums: { label: 'Albums', component: Albums },
+    manga: { label: 'Manga', component: Manga }
   }
 
   const routeKeys = Object.keys(ROUTES)
