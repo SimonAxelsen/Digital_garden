@@ -37,7 +37,7 @@ const books = [
   year: 1938,
   image: '/images/books/298275.jpg',
   tags: ['Classics', 'Philosophy'],
-  status: 'to read'
+  status: 'reading'
   },
   {
   title: 'The Metamorphosis',
@@ -53,7 +53,7 @@ const books = [
   year: 2002,
   image: '/images/books/1100.jpg',
   tags: ['Fiction', 'Contemporary'],
-  status: 'to read'
+  status: 'read'
   }
 ]
 
