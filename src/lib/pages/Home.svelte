@@ -4,21 +4,21 @@
 
 <section class="home">
   <div class="home__intro">
-    <h2>Welcome to the garden</h2>
-    <p>A light place to log books, films, and albums. Add new ideas as the garden grows.</p>
+    <h2>Welcome to your digital garden</h2>
+    <p>A peaceful space to nurture your media collection. Add new entries as inspiration strikes.</p>
   </div>
   <div class="home__grid">
     <a class="home__card" href="#/books">
       <h3>Bookshelf</h3>
-      <p>List current reads, stash tags, and record notes in <code>src/data/books.js</code>.</p>
+      <p>Cultivate your reading journey — track titles, authors, and reflections.</p>
     </a>
     <a class="home__card" href="#/movies">
       <h3>Movies</h3>
-      <p>Track films with fields like director, year, or anything else you append.</p>
+      <p>Curate your watchlist — note films, directors, and moments that resonate.</p>
     </a>
     <a class="home__card" href="#/albums">
       <h3>Albums</h3>
-      <p>Track albums with artist, year, or tags in <code>src/data/albums.js</code>.</p>
+      <p>Archive your soundscapes — log albums, artists, and the mood they evoke.</p>
     </a>
   </div>
 </section>

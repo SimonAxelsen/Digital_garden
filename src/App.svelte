@@ -4,14 +4,14 @@
   import Bookshelf from './lib/pages/Bookshelf.svelte'
   import Movies from './lib/pages/Movies.svelte'
   import Albums from './lib/pages/Albums.svelte'
-  import Manga from './lib/pages/Manga.svelte'
+  import Anime from './lib/pages/Anime.svelte'
 
   const ROUTES = {
     home: { label: 'Home', component: Home },
     books: { label: 'Bookshelf', component: Bookshelf },
     movies: { label: 'Movies', component: Movies },
     albums: { label: 'Albums', component: Albums },
-    manga: { label: 'Manga', component: Manga }
+    anime: { label: 'Anime', component: Anime }
   }
 
   const routeKeys = Object.keys(ROUTES)
@@ -42,7 +42,7 @@
     <div class="site-brand">
       <div>
         <h1><a href="#/">My Digital Garden</a></h1>
-        <p>Simple shelves for books, films, and albums. Add more whenever you like.</p>
+        <p>A quiet space to collect your favorite media. Let the garden grow at your own pace.</p>
       </div>
     </div>
   </header>
@@ -64,6 +64,6 @@
   </nav>
 
   <footer class="site-footer">
-    <small>Data lives in <code>src/data</code>. Tweak those files to grow new views.</small>
+    <small>Your media collection lives in <code>src/data</code>. Edit those files to grow the garden.</small>
   </footer>
 </div>
